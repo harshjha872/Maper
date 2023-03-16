@@ -1,9 +1,9 @@
 :root {
-  --color-brand--1: #ffb545;
-  --color-brand--2: #00c46a;
+  --color-brand--1: #8345ff;
+  --color-brand--2: #c30762;
 
-  --color-dark--1: #2d3439;
-  --color-dark--2: #42484d;
+  --color-dark--1: #212121;
+  --color-dark--2: #252525;
   --color-light--1: #aaa;
   --color-light--2: #ececec;
   --color-light--3: rgb(214, 222, 224);
@@ -15,20 +15,26 @@
   box-sizing: inherit;
 }
 
+.heading_mapty {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   color: var(--color-light--2);
   font-weight: 400;
   line-height: 1.6;
   height: 100vh;
   overscroll-behavior-y: none;
 
-  background-color: #fff;
+  background-color: #242424;
   padding: 2.5rem;
 
   display: flex;
@@ -218,3 +224,4 @@ a:visited {
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
 }
+
